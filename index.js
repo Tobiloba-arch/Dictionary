@@ -122,4 +122,7 @@ input.addEventListener("keyup", (e) => {
   if (e.key === "Enter") {
     handleFetch(e.target.value);
   }
+  submit.addEventListener("click", () => {
+    handleFetch(input.value);
+  });
 });

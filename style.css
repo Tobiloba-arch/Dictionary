@@ -42,7 +42,7 @@ h1 {
 .search-button {
   border-radius: 4px;
   padding: 8px 12px;
-  background-color: plum;
+  background-color: red;
   color: white;
   border: none;
   cursor: pointer;
